@@ -20,10 +20,10 @@ extern const TProgmemPalette16 IRAM_ATTR myRedWhiteBluePalette_p;
 
 #include "palettes.h"
 
-#define NUM_LEDS 400
-#define DATA_PIN 15 
+#define NUM_LEDS 16
+#define DATA_PIN GPIO_NUM_26
 #define BRIGHTNESS  64
-#define LED_TYPE    WS2811
+#define LED_TYPE    WS2812
 #define COLOR_ORDER GRB
 CRGB leds[NUM_LEDS];
 
