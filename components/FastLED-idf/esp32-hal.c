@@ -16,9 +16,6 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "esp_attr.h"
-#include "nvs_flash.h"
-#include "nvs.h"
-#include "esp_partition.h"
 #include "esp_log.h"
 #include "esp_timer.h"
 
